@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KAS Scientific Document Verification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: sans-serif; margin: 2em; line-height: 1.6; color: #222; }
+        h1, h2, h3 { color: #003366; }
+        .logo { max-height: 80px; margin-bottom: 1em; }
+        .badge { display: inline-block; margin: 0.5em 0; }
+        .section { margin-top: 2em; }
+        .button-link { display: inline-block; padding: 10px 20px; background: #2AA198; color: white; text-decoration: none; border-radius: 5px; margin-top: 1em; }
+        footer { margin-top: 4em; font-size: 0.9em; color: #555; border-top: 1px solid #ccc; padding-top: 1em; }
+    </style>
+</head>
+<body>
+    <img src="logo.png" alt="KAS Logo" class="logo">
+    <h1>Kapodistrian Academy of Science<br>Scientific Document Verification</h1>
+
+    <p>This page provides public tools to <strong>verify digitally signed scientific PDFs</strong> issued by the Kapodistrian Academy of Science (KAS).</p>
+
+    <div class="section">
+        <h2>📤 Submit Your Paper</h2>
+        <a class="button-link" href="https://forms.gle/oLhKr2KA17NPhSvr9" target="_blank">📝 Submit via Secure Form</a>
+    </div>
+
+    <div class="section">
+        <h2>🚀 Verify a Signed PDF</h2>
+        <p>Use the official KAS verification notebook on Google Colab:</p>
+        <a class="badge" href="https://colab.research.google.com/github/Galactic-Code-Developers/kas-pdf-auth-verifier/blob/main/KAS_Verifier_OpenSSL.ipynb" target="_blank">
+            <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab">
+        </a>
+        <p>
+            📄 <a href="https://github.com/Galactic-Code-Developers/kas-pdf-auth-verifier/raw/main/KAS_Verifier_OpenSSL.ipynb" target="_blank">Download Notebook</a><br>
+            🔐 <a href="https://github.com/Galactic-Code-Developers/kas-pdf-auth-verifier/raw/main/public_key.pem" target="_blank">Download public_key.pem</a>
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>🔐 What This Verifies</h2>
+        <ul>
+            <li>Confirms authorship identity (primary author metadata match)</li>
+            <li>Validates document fingerprint (SHA-256)</li>
+            <li>Checks signature from KAS official key</li>
+            <li>Flags tampered or unauthorized documents</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>📄 File Naming</h2>
+        <pre>[AuthorLastName]_[ShortTitle]_v[Version]_SIGNED_KAS_[Date].pdf</pre>
+        <p>Each signed document includes:</p>
+        <ul>
+            <li>.pdf — signed paper</li>
+            <li>.sha256 — fingerprint</li>
+            <li>.sig — RSA signature</li>
+        </ul>
+    </div>
+
+    <footer>
+        For institutional use or questions, contact <strong>security@kapodistrian.edu.gr</strong><br>
+        &copy; 2025 Kapodistrian Academy of Science
+    </footer>
+</body>
+</html>
