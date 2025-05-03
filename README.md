@@ -23,7 +23,7 @@ This static webpage allows the public to:
 | `index.html` | Main verification landing page        |
 | `embed.html` | Snippet to embed the verifier page    |
 | `logo.png`   | Official KAS logo for branding        |
-| `KAS_Verifier_OpenSSL.ipynb` | Notebook to verify signatures |
+| `KAS_Verifier_DualMode.ipynb` | Notebook to verify signatures |
 
 ---
 
@@ -31,7 +31,7 @@ This static webpage allows the public to:
 
 Use the official KAS verification notebook:
 
-[![Launch Verifier in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Galactic-Code-Developers/kas-verifier-page/blob/main/KAS_Verifier_OpenSSL.ipynb)
+[![Launch Verifier v1.1 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Galactic-Code-Developers/kas-verifier-page/blob/main/KAS_Verifier_DualMode.ipynb)
 
 ---
 
