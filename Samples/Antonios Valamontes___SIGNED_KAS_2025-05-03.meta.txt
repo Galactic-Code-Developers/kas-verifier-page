@@ -1,0 +1,8 @@
+Author: Antonios Valamontes
+Title: 
+Version: 
+Date: 2025-05-03
+ORCID: 0009-0008-5616-7746
+Institution: Kapodistrian Academy of Science
+Email: avalamontes@kapodistrian.edu.gr
+SHA256: 27528eb59a6c738ddf1d221e5d8f43d89ff4116ff51203e0e922c7d8233f353d
