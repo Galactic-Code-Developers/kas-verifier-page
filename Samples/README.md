@@ -29,11 +29,11 @@ KAS will:
 Use the included notebook to:
 - Upload your `.pdf`, `.sha256`, `.sig`, and `public_key.pem`
 - Recalculate PDF hash and confirm signature
-- Authenticate the signature using OpenSSL or Python
+- Authenticate the signature using OpenSSL or Python (Module Availability TBA)
 
 👉 Launch in Colab:
 
-[![Launch Verifier in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Galactic-Code-Developers/kas-pdf-auth-verifier/blob/main/KAS_Verifier_OpenSSL.ipynb)
+[![Launch Verifier in Colab](https://colab.research.google.com/assets/colab-badge.svg)]((https://colab.research.google.com/github/Galactic-Code-Developers/kas-verifier-page/blob/main/KAS_Verifier_OpenSSL.ipynb) OpenSSL Version
 
 ---
 
