@@ -1,4 +1,4 @@
-# 🌐 kas-verifier-page
+# 🌐 KAS Verifier Page
 
 This is the official GitHub Pages repository for the **Kapodistrian Academy of Science (KAS) Scientific Document Verifier**.
 
