@@ -33,7 +33,7 @@ Use the included notebook to:
 
 👉 Launch in Colab:
 
-[![Launch Verifier in Colab](https://colab.research.google.com/assets/colab-badge.svg)]((https://colab.research.google.com/github/Galactic-Code-Developers/kas-verifier-page/blob/main/KAS_Verifier_OpenSSL.ipynb) OpenSSL Version
+[![Launch Verifier in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Galactic-Code-Developers/kas-verifier-page/blob/main/KAS_Verifier_OpenSSL.ipynb) OpenSSL Version
 
 ---
 
